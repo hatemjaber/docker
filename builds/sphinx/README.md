@@ -18,4 +18,4 @@ These are just to serve as a way to get sphinxsearch setup and ready for testing
 Once you have built your Dockerfile's, to create a container...
 
 - create a directory wherever you like on your host machine named some-sphinx with 2 sub directories etc and var
-	sudo docker run -it --hostname some-sphinx --name some-sphinx -v /PATH-ON-HOST-MACHINE/some-sphinx/etc:/usr/local/sphinx/etc -v ~/PATH-ON-HOST-MACHINE/some-sphinx/var:/usr/local/sphinx/var -p 9306:9306 -d mysphinx /bin/bash
+- sudo docker run -it --hostname some-sphinx --name some-sphinx -v /PATH-ON-HOST-MACHINE/some-sphinx/etc:/usr/local/sphinx/etc -v ~/PATH-ON-HOST-MACHINE/some-sphinx/var:/usr/local/sphinx/var -p 9306:9306 -d mysphinx /bin/bash
